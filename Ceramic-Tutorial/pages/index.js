@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <div className={styles.navbar}>
-        <span className={styles.title}>Ceramic Demo (georli testnet)</span>
+        <span className={styles.title}>Ceramic Demo</span>
         {connection.status === "connected" ? (
           <span className={styles.subtitle}>Connected</span>
         ) : (
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
           ) : (
             <span className={styles.subtitle}>
-              Connect with your wallet to access your 3ID
+              Connect (Ethereum Goerli Testnet) with your wallet to access your 3ID
             </span>
           )}
         </div>
