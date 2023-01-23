@@ -47,7 +47,7 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <div className={styles.navbar}>
-        <span className={styles.title}>Ceramic Demo</span>
+        <span className={styles.title}>Ceramic Demo (georli testnet)</span>
         {connection.status === "connected" ? (
           <span className={styles.subtitle}>Connected</span>
         ) : (
@@ -60,7 +60,7 @@ export default function Home() {
           </button>
         )}
       </div>
-  
+
       <div className={styles.content}>
         <div className={styles.connection}>
           {connection.status === "connected" ? (
